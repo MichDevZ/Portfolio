@@ -15,7 +15,7 @@ export const NavBar = () => {
   }
 
   return (
-    <nav className='mr-5' > 
+    <nav className='' > 
       <div className='grid md:grid-cols-3 md:items-center font-mono md:justify-between justify-items-center '>
         <div className='flex items-center'>
         <Image src={'/Logo.webp'} alt={'MichDev'} width={50} height={50} className='bg-black' />

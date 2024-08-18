@@ -40,14 +40,19 @@ export const Presentation = () => {
       </div>
     </div>
 
-    <div className="w-1/2 ">
+    <div className="flex">
       <div>
-        <Image src={'/Logo.webp'} alt={'MichDev'} width={200} height={50} className='bg-white' />
+        <Image src={'/Logo.webp'} alt={'MichDev'} width={150} height={50} className='bg-white' />
+
         <button className='bg-gray-400 hover:bg-gray-400
-         text-gray-800 font-bold md:py-2 py-1 px-3  md:-ml-20 rounded'>
-          <div className='flex items-center '>
-        <svg className="fill-current md:w-4 h-4 mr-2 md:mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-        <a href={isChecked ? "/curriculum en.pdf" : "/curriculum es.pdf" } download={isChecked ? "curriculum en.pdf" : "curriculum es.pdf"}>
+       text-gray-800 font-bold md:py-2 py-1 px-3 rounded'>
+
+        <div className='flex items-center '>
+            <svg className="fill-current md:w-2 h-4 mr-2 md:mr-2" 
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+            <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+        <a className='text-xs' href={isChecked ? "/curriculum en.pdf" : "/curriculum es.pdf" } 
+        download={isChecked ? "curriculum en.pdf" : "curriculum es.pdf"}>
           {isChecked ? 'Download my CV' : 'Descarga mi CV'}</a>
         </div>
 
