@@ -28,7 +28,7 @@ export const NavBar = () => {
             {isChecked ? 'Home' : 'Inicio'}</button>
           <button  onClick={() => scrollTo('about')}
           className='hover:text-orange-500 border-r-2 px-2 border-inherit'>
-            {isChecked ? 'About me' : 'Sobre mi'}</button>
+            {isChecked ? 'About me' : 'Sobre mí'}</button>
           <button  onClick={() => scrollTo('projects')}
           className='hover:text-orange-500 border-r-2 px-2 border-inherit'>
             {isChecked ? 'Projects' : 'Proyectos'}</button>
