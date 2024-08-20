@@ -14,7 +14,7 @@ export const Contact = () => {
     <div id='contact' className="items-center mx-auto my-10  
     max-w-screen-md bg-zinc-900 p-5 rounded-md">
         <div>
-            <h2 className='text-orange-500 text-1xl md:text-2xl underline italic mb-5'>{isChecked ? 'Contact me' : 'Contactame'}</h2>
+            <h2 className='text-orange-500 text-1xl md:text-2xl underline italic mb-5'>{isChecked ? 'Contact me' : 'Contáctame'}</h2>
         </div>
     
     <div className='flex justify-center'>
