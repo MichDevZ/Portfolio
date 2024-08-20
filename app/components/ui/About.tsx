@@ -14,9 +14,9 @@ export const About = () => {
   return (
   <div 
   id='about'
-  className= "items-center md:mt-[120px] md:ml-[220px] md:max-w-screen-md bg-zinc-900 p-5 rounded-md animate-fade-up animate-delay-[2000ms]">
+  className= "items-center mx-auto md:mt-[120px] md:max-w-screen-md bg-zinc-900 p-5 rounded-md animate-fade-up animate-delay-[2000ms]">
     <div>
-      <h2 className='text-orange-500 text-xl md:text-2xl underline italic mb-3'>{isChecked ? 'About me' : 'Sobre mí'}</h2>
+      <h2 className='text-orange-500 text-xl md:text-2xl underline italic mb-3'>{isChecked ? 'About me' : 'Sobre mi'}</h2>
     </div>
 
     <p className='text-gray-200 text-sm md:text-base '>

@@ -41,7 +41,7 @@ export const Projects = () => {
   }
   ]
   return (
-    <div id="projects" className="items-center md:mt-[100px] my-10 md:ml-[220px] max-w-screen-md bg-zinc-900 p-5 rounded-md">
+    <div id="projects" className="items-center mx-auto my-10  max-w-screen-md bg-zinc-900 p-5 rounded-md">
     <div>
       <h2 className='text-orange-500 text-1xl md:text-2xl underline italic mb-5'>{isChecked ? 'Projects' : 'Proyectos'}</h2>
     </div>

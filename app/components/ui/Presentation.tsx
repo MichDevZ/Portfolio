@@ -16,13 +16,17 @@ export const Presentation = () => {
   return (
     <>
     
-    <div className="grid my-10 md:grid-cols-2 justify-items-center text-center  items-center md:mt-[120px]
-     md:ml-[120px]" >
-    <div className="grid mr-5 md:flex-block w-1/2  font-mono justify-items-center md:justify-items-start ">
+    <div className="grid my-10 md:grid-cols-2
+     justify-items-center text-center  md:mt-[120px]
+     md:ml-[130px]" >
+    <div className="grid md:flex-block
+     font-mono justify-items-center md:justify-items-start ">
     <h1 className="text-orange-500 md:text-5xl text-2xl
      text-nowrap animate-fade-right animate-duration-[2000ms]">
     Michael Vargas</h1>
-    <h2 className="text-white text-nowrap text-1xl md:text-2xl mb-2 animate-fade-down animate-duration-[1500ms] animate-delay-[500ms]">
+    <h2 className="text-white text-nowrap 
+    text-1xl md:text-2xl mb-2 animate-fade-down animate-duration-[1500ms] 
+    animate-delay-[500ms]">
     {isChecked ? 'Full Stack Developer' : 'Desarrollador Full Stack'}</h2>
     <div className='flex mb-8 space-x-3 animate-fade-left animate-duration-[1000ms] animate-delay-[1500ms] '>
       <Link href={'https://github.com/MichDevZ'} target='_blank'>
