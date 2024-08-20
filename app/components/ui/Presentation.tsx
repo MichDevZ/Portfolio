@@ -18,7 +18,7 @@ export const Presentation = () => {
     
     <div className="grid my-10 md:grid-cols-2 justify-items-center text-center  items-center md:mt-[120px]
      md:ml-[120px]" >
-    <div className="grid md:flex-block w-1/2  font-mono justify-items-center md:justify-items-start ">
+    <div className="grid mr-5 md:flex-block w-1/2  font-mono justify-items-center md:justify-items-start ">
     <h1 className="text-orange-500 md:text-5xl text-2xl
      text-nowrap animate-fade-right animate-duration-[2000ms]">
     Michael Vargas</h1>
