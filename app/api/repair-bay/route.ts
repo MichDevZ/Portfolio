@@ -31,5 +31,9 @@ export async function GET()  {
     </html>
     `;
 
-   return Response.json(htmlContent)
+   return Response.json(htmlContent, {
+    headers: {
+        'Content-Type': 'text/html',
+      }
+   })
   }
