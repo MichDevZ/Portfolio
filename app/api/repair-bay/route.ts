@@ -17,21 +17,22 @@ type ResponseData = {
 
 export async function GET()  {
 
-    const htmlContent = `
-    <!DOCTYPE html>
+    // let htmlContent = `<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Repair</title></head><body><div class="anchor-point">${systems.deflector_shield}</div></body></html>`;
+
+    let htmlContent = `<!DOCTYPE html>
     <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Repair</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Repair</title>
     </head>
     <body>
-        <div class="anchor-point">${systems.deflector_shield}</div>
+      <div class="anchor-point">${systems.deflector_shield}</div>
     </body>
-    </html>
-    `;
+    </html>`;
+    
 
-   return Response.json(htmlContent, {
+   return new Response(htmlContent, {
     headers: {
         'Content-Type': 'text/html',
       }
